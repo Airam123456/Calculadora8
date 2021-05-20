@@ -42,6 +42,11 @@ public class Calculadora {
 	   private static Double log(double num, int base) {
 	      return (Math.log10(num) / Math.log10(base));
 	   }
+	   
+	   public void saludar()
+	   {
+		   System.out.println("hola");
+	   }
 
 	}
 
